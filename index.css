@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    
+}
+.header__logo__text{
+    font-size: 32px;
+}
+.header__right__item{
+    margin: 12px;
+}
+.header__right__item:hover{
+    color: yellow;
+}
+.header__right{
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
